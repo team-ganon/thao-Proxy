@@ -1,17 +1,32 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "hrr44-front-end-capstone",
+  "description": "> Project description",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "node ./server/server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-ganon/thao-Proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/team-ganon/thao-Proxy/issues"
+  },
+  "homepage": "https://github.com/team-ganon/thao-Proxy#readme"
 }
